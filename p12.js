@@ -5,7 +5,7 @@ const crypto = require('crypto');
 const p12FilePath = 'Dab-csrs/dab-axis.p12';
 
 // Password for the P12 file
-const p12Password = '1234';
+const p12Password = '';
 
 // Read the P12 file
 const p12File = fs.readFileSync(p12FilePath);
